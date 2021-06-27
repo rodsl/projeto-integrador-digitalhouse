@@ -10,21 +10,17 @@
 a {
   text-decoration: none;
 }
-#main {
+.bg-image {
+  position: fixed;
   height: 100%;
-}
-
-#main::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  z-index: -1;
-  background-image: url("../img/bg.png");
+  width: 100%;
+  background: url("../img/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  opacity: 0.3;
+  z-index: -1;
+  opacity: 0.4;
 }
 
 .container {
@@ -35,6 +31,10 @@ a {
 
 #header {
   background-color: #5eae53;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .logo-header {
@@ -51,15 +51,12 @@ a {
   color: white;
   margin-left: 2rem;
   font-size: 2rem;
+
 }
 
 .dm-sans {
   font-family: "DM Sans", sans-serif;
   transition: font-weight 450ms ease-in;
-}
-
-.dm-sans:hover {
-  font-weight: 700;
 }
 
 .work-sans {
@@ -134,13 +131,13 @@ a {
 }
 
 .card-img {
-  height: 180px;
+  height: 100%;
+  width: 100%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 12px 12px 0 0;
 }
-
 
 /* .card img {
   width: auto;
