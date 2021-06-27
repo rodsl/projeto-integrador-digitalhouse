@@ -10,6 +10,22 @@
 a {
   text-decoration: none;
 }
+#main {
+  height: 100%;
+}
+
+#main::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  opacity: 0.3;
+}
 
 .container {
   width: 100%;
@@ -34,6 +50,7 @@ a {
 .nav-item {
   color: white;
   margin-left: 2rem;
+  font-size: 2rem;
 }
 
 .dm-sans {
@@ -45,8 +62,9 @@ a {
   font-weight: 700;
 }
 
-.nav-panel-right{
-  
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  transition: font-weight 450ms ease-in;
 }
 
 /* 
@@ -95,8 +113,74 @@ a {
   transform: scale(1, 1);
 }
 
-i{
+.btn-card {
+  background-color: #eb8e78;
   color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+  border-radius: 8px;
+  height: 52px;
+}
+
+.card {
+  height: 340px;
+  width: 265px;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  border: 0px solid #f7f7f7;
+
+  transition: all 450ms;
+}
+
+.card-img {
+  height: 180px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+
+/* .card img {
+  width: auto;
+  height: auto;
+  max-height: 180px;
+  border-radius: 12px 12px 0 0;
+  transition: all 450ms;
+
+} */
+.card p {
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
   text-align: center;
-  font-size: 2rem;
+  padding: 0.3rem;
+  transition: all 450ms;
+}
+
+.card button {
+  margin: 10px;
+  transition: all 450ms;
+}
+
+.card:hover {
+  height: 340px;
+  width: 265px;
+  border-radius: 12px;
+  background-color: #f49b3f;
+  border: 8px solid #f49b3f;
+  filter: drop-shadow(10px 20px 40px hsla(30, 100%, 19%, 0.3));
+}
+.card:hover .card-img {
+  border-radius: 12px;
+}
+.card:hover p {
+  font-size: 1.5rem;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  padding: 0.3rem;
+  color: white;
+}
+.card:hover button {
+  background-color: #f49b3f;
 }

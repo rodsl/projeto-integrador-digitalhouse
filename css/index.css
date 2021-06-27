@@ -1,4 +1,16 @@
 @import "styles.css";
 .banner-01 {
-    background-image: url("../img/food01.jpg");
+  height: 400px;
+  background-image: url("../img/food01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+.title-banner-01 {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  margin: 7rem 0;
+}
+
