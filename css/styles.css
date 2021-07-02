@@ -30,11 +30,11 @@ a {
 }
 
 #header {
-  background-color: #5eae53;
+  background-color: var(--verde);
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: var(--preto-shadow-opacity02) 0px 7px 29px 0px;
 }
 
 .logo-header {
@@ -48,19 +48,19 @@ a {
 }
 
 .nav-item {
-  color: white;
+  color: var(--fonte-branca);
   margin-left: 2rem;
   font-size: 2rem;
 
 }
 
 .dm-sans {
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--DM-Sans);
   transition: font-weight 450ms ease-in;
 }
 
 .work-sans {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--Work-Sans);
   transition: font-weight 450ms ease-in;
 }
 
@@ -70,7 +70,7 @@ a {
 ========================
 */
 .btn-three {
-  color: #fff;
+  color: var(--fonte-branca);
   transition: all 0.5s;
   position: relative;
   margin: 0 0.6rem;
@@ -102,7 +102,7 @@ a {
   z-index: 1;
   opacity: 0;
   transition: all 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--branco-opacity05);
   transform: scale(1.2, 1.2);
 }
 .btn-three:hover::after {
@@ -111,11 +111,11 @@ a {
 }
 
 .btn-card {
-  background-color: #eb8e78;
-  color: #fff;
+  background-color: var(--vermelho-claro);
+  color: var(--fonte-branca);
   border: none;
   font-size: 1.5rem;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--DM-Sans);
   border-radius: 8px;
   height: 52px;
 }
@@ -124,8 +124,8 @@ a {
   height: 340px;
   width: 265px;
   border-radius: 12px;
-  background-color: #f7f7f7;
-  border: 0px solid #f7f7f7;
+  background-color: var(--branco-acinzentado);
+  border: 0px solid var(--branco-acinzentado);
 
   transition: all 450ms;
 }
@@ -149,7 +149,7 @@ a {
 } */
 .card p {
   font-size: 1.5rem;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--DM-Sans);
   text-align: center;
   padding: 0.3rem;
   transition: all 450ms;
@@ -164,20 +164,20 @@ a {
   height: 340px;
   width: 265px;
   border-radius: 12px;
-  background-color: #f49b3f;
-  border: 8px solid #f49b3f;
-  filter: drop-shadow(10px 20px 40px hsla(30, 100%, 19%, 0.3));
+  background-color: var(--laranja-claro);
+  border: 8px solid var(--laranja-claro);
+  filter: drop-shadow(10px 20px 40px var(--marrom-shadow-opacity03));
 }
 .card:hover .card-img {
   border-radius: 12px;
 }
 .card:hover p {
   font-size: 1.5rem;
-  font-family: "DM Sans", sans-serif;
+  font-family: var(--DM-Sans);
   text-align: center;
   padding: 0.3rem;
-  color: white;
+  color: var(--fonte-branca);
 }
 .card:hover button {
-  background-color: #f49b3f;
+  background-color: var(--laranja-claro);
 }

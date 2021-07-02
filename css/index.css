@@ -5,19 +5,19 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: var(--cinza-escuro) 0px 7px 29px 0px;
 }
 
 .title-banner-01 {
-  color: white;
+  color: var(--fonte-branca);
   font-size: 72px;
   text-align: center;
   margin: 7rem 0;
 }
 
 .banner-02 {
-  background-color: #5eae53;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: var(--verde);
+  box-shadow: var(--cinza-escuro) 0px 7px 29px 0px;
 }
 .img-banner-02 {
   width: 150%;
@@ -39,12 +39,12 @@
   margin-left: 3rem;
 }
 .txt-banner-02 h2 {
-  color: white;
+  color: var(--fonte-branca);
   font-size: 72px;
   text-align: center;
 }
 .txt-banner-02 p {
-  color: white;
+  color: var(--fonte-branca);
   font-size: 20px;
   text-align: justify;
   margin-top: 2rem;
