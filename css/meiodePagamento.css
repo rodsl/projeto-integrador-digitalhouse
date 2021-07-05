@@ -3,7 +3,8 @@
 .bttn-pagamento{
     background-color:#FFFF;
     color: #EB8E78;
-    border: none;
+    border-color: #EB8E78;
+    border-style: solid;
     font-size: 1rem;
     font-family: var(--DM-Sans);
     border-radius: 8px;
@@ -11,6 +12,9 @@
     right: 163px;
     top: 381PX;
     bottom: 67.21%;
+    height: 50px;
+    word-wrap: break-word;
+    
 }
 
 .titulo{
@@ -22,12 +26,28 @@
     display: flex;
     align-items: flex-start;
     padding-left: 79px;
+    padding-top:50px;
+    word-wrap: inherit;
     
     color: #000000;
 }
 
-.btns{
+.btns1{
     display:flex;
     justify-content: flex-end;
+    align-items: stretch;
+    padding-bottom: 10px;
+   
     
+}
+
+.btns2{
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+.btns3{
+    display:flex;
+    justify-content:flex-end;  
 }
