@@ -11,9 +11,15 @@
 
 .title-banner-01 {
   color: var(--fonte-branca);
-  font-size: 72px;
+  font-size: 4.5rem;
   text-align: center;
-  margin: 7rem 0;
+  margin: 7rem 0 0 0;
+}
+
+.subtitle-banner-01{
+  color: var(--fonte-branca);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .banner-02 {
@@ -57,7 +63,8 @@
   max-width: 100%;
   width: 800px;
 }
-.banner-03 h2{
+
+.banner-03 h2 {
   text-align: center;
   margin: 50px 0;
   font-family: var(--Work-Sans);
