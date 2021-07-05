@@ -1,5 +1,5 @@
-@import "flexbox.css";
-@import "base.css";
+@import "./flexbox.css";
+@import "./base.css";
 
 * {
   box-sizing: border-box;
