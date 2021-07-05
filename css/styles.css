@@ -222,3 +222,12 @@ footer ul li.title {
   text-transform: uppercase;
   color: var(--vermelho-claro);
 }
+
+footer .social-medias {
+  height: 1rem;
+}
+
+.svg-icon {
+  fill: var(--branco);
+  padding-right: 0.5rem;
+}
