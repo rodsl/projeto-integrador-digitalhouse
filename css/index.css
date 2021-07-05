@@ -5,7 +5,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: var(--cinza-escuro) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px;
+
 }
 
 .title-banner-01 {
@@ -17,8 +18,10 @@
 
 .banner-02 {
   background-color: var(--verde);
-  box-shadow: var(--cinza-escuro) 0px 7px 29px 0px;
+  /* box-shadow: var(--cinza-escuro) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px;
 }
+
 .img-banner-02 {
   width: 150%;
   background-position: 50% 50%;
@@ -40,12 +43,38 @@
 }
 .txt-banner-02 h2 {
   color: var(--fonte-branca);
-  font-size: 72px;
+  font-size: 60px;
   text-align: center;
 }
 .txt-banner-02 p {
   color: var(--fonte-branca);
-  font-size: 20px;
+  font-size: 16px;
   text-align: justify;
   margin-top: 2rem;
+}
+
+.banner-03{
+  max-width: 100%;
+  width: 800px;
+}
+.banner-03 h2{
+  text-align: center;
+  margin: 50px 0;
+  font-family: var(--Work-Sans);
+  font-size: 2.2rem;
+}
+
+.banner-03 button {
+  padding: 1.2rem;
+  border-radius: 12px;
+  border: 0px;
+  margin-bottom: 1.5rem;
+  background-color: var(--vermelho-claro);
+  color: var(--branco);
+  font-family: var(--DM-Sans);
+  cursor: pointer;
+  transition: all .25s;
+}
+.banner-03 button:hover{
+  background-color: var(--vermelho-claro-hover);
 }
