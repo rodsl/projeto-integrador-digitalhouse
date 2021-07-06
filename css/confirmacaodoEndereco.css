@@ -1,0 +1,91 @@
+@import "styles.css";
+
+.titulo{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 42px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 79px;
+    padding-top:50px;
+    word-wrap: inherit;
+    
+    color: #000000;
+}
+
+.bttn-endereco{
+    background-color:#FFFF;
+    color: #EB8E78;
+    border-color: #EB8E78;
+    border:solid 1px;
+    font-size: 1rem;
+    font-family: var(--DM-Sans);
+    border-radius: 8px;
+    width: 270px;
+    right: 163px;
+    top: 381PX;
+    bottom: 67.21%;
+    height: 50px;
+    word-wrap: break-word;
+}
+
+.btns1{
+    display:flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.btns2{
+    display: flex;
+    justify-content: center;
+}
+
+.btns3{
+    display:flex;
+    justify-content:flex-end;
+    padding-top: 15%;
+    padding-bottom: 15%;  
+}
+
+.enderecotxt{
+    font-family: var(--DM-Sans);
+    font-style: normal;
+    font-size: 16px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    word-wrap:normal;
+    color: #000000
+}
+
+.btnn-endereco2{
+    background-color:#FFFF;
+    color: #EB8E78;
+    border-color: #EB8E78;
+    border:solid 1px;
+    font-size: 1rem;
+    font-family: var(--DM-Sans);
+    border-radius: 8px;
+    width: 200px;
+    right: 163px;
+    top: 381PX;
+    bottom: 67.21%;
+    height: 50px;
+    word-wrap: break-word;
+}
+
+.bttn-endereco:hover{
+    background-color: #EB8E78;
+    color: #ffff;
+    border: 1px solid #eb8e78;
+}
+
+.btnn-endereco2:hover{
+    background-color: #EB8E78;
+    color: #ffff;
+    border: 1px solid #eb8e78;
+}
