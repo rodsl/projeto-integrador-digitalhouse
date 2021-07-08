@@ -1,0 +1,37 @@
+@import "./flexbox.css";
+@import "./base.css";
+
+.c-dropdown {
+    background: var(--verde);
+    border-radius: 5px;
+    left: 25%;
+    list-style: none;
+    opacity: 1;
+    padding: .8rem;
+    position: absolute;
+    top: calc(100% + 10px);
+    transform: translateX(-25%) ;
+    transform-origin: top center;
+    transition: all 150ms ease-in;
+    width: 14rem;
+}
+
+.menu-dropdown:hover {
+    opacity: 1;
+    transform: translateX(-25%) rotateX(0);
+    transition-timing-function: ease-out;
+}
+
+.c-dropdown__item:nth-child(-n+5) {
+    padding-bottom: 0.5rem;
+}
+
+.c-dropdown__link {
+    color: var(--fonte-branca);
+    font-size: 1rem;
+}
+
+.c-dropdown__link:hover {
+    border: 1px solid #fff;
+    padding: .5rem;
+}
