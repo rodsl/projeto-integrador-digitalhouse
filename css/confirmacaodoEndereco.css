@@ -17,7 +17,7 @@
 
 .bttn-endereco{
     background-color:#FFFF;
-    color: #EB8E78;
+    color: var(--vermelho-claro);
     border-color: #EB8E78;
     border:solid 1px;
     font-size: 1rem;
