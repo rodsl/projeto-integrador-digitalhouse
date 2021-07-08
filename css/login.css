@@ -1,0 +1,68 @@
+@import "./flexbox.css";
+@import "./base.css";
+@import "./styles.css";
+
+body {
+    background: var(--verde);
+}
+.form-login{
+    width: 50%;
+
+}
+.img-form{
+    /* border: 1px solid blue; */
+    width: 20%;
+}
+
+.logo img {
+    height: 60%;
+    width: 40%;
+}
+
+.form {
+    background: var(--branco);
+    border: none;
+    border-radius: 12px;
+    filter: drop-shadow(10px 20px 40px var(--marrom-escuro-shadow-opacity02));
+    padding: 0.8rem;
+    width: 80%;
+}
+
+.welcome {
+    border-bottom: 1px solid var(--cinza);
+    color: var(--vermelho-claro);
+    font-size: 1rem;
+}
+
+.input-label {
+    padding-top: 0.5rem;
+}
+
+.label-email, .label-senha {
+    color: var(--vermelho-claro);
+    padding-bottom: 0.2rem;
+}
+
+.label-senha{
+    padding-top: 0.5rem;
+}
+
+#email , #senha {
+    border: 1px solid var(--cinza);
+    border-radius: 3px;
+}
+
+.submit {
+    border-top: 1px solid var(--cinza);
+    margin-top: 1rem;
+}
+
+.submit a {
+    color: var(--vermelho-claro);
+    font-size: 1rem;
+}
+
+.btn-login {
+    margin-top: 0.5rem;
+    width: 25%;
+}
