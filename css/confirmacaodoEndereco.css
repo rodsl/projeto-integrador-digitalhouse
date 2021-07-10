@@ -1,7 +1,7 @@
 @import "styles.css";
 
 .titulo{
-    font-family: Work Sans;
+    font-family: var(--Work-Sans);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -16,9 +16,9 @@
 }
 
 .bttn-endereco{
-    background-color:#FFFF;
+    background-color: var(--branco);
     color: var(--vermelho-claro);
-    border-color: #EB8E78;
+    border-color: var(--vermelho-claro);
     border:solid 1px;
     font-size: 1rem;
     font-family: var(--DM-Sans);
@@ -63,9 +63,9 @@
 }
 
 .btnn-endereco2{
-    background-color:#FFFF;
-    color: #EB8E78;
-    border-color: #EB8E78;
+    background-color: var(--branco);
+    color: var(--vermelho-claro);
+    border-color: var(--vermelho-claro);
     border:solid 1px;
     font-size: 1rem;
     font-family: var(--DM-Sans);
@@ -79,13 +79,13 @@
 }
 
 .bttn-endereco:hover{
-    background-color: #EB8E78;
-    color: #ffff;
-    border: 1px solid #eb8e78;
+    background-color: var(--vermelho-claro);
+    color: var(--branco);
+    border: 1px solid var(--vermelho-claro);
 }
 
 .btnn-endereco2:hover{
-    background-color: #EB8E78;
-    color: #ffff;
-    border: 1px solid #eb8e78;
+    background-color: var(--vermelho-claro);
+    color: var(--branco);
+    border: 1px solid var(--vermelho-claro);
 }

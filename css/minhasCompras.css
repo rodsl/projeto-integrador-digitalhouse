@@ -1,7 +1,7 @@
 @import "styles.css";
 
 .titulo{
-    font-family: Work Sans;
+    font-family: var(--Work-Sans);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -10,56 +10,46 @@
     align-items: flex-start;
     padding-left: 79px;
     padding-top:50px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     word-wrap: inherit;
     
     color: #000000;
 }
 
-.btns1{
-    display:flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+.detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--laranja-claro);
+    margin-left: 79px;
+    margin-right:25px;
+    font-family: var(--Work-Sans);
+    font-size: 14px;
+    font-style: bold;
 }
 
-.btns2{
-    display:flex;
-    justify-content: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-.btns3{
-    display:flex;
-    justify-content: center;
-}
-
-.btns4{
-    display:flex;
-    justify-content:flex-end;
-    padding-top: 15%;
-    padding-bottom: 15%;  
-}
-
-.btns-entrega-dia{
+.btn-detalhes{
     background-color: var(--branco);
     color: var(--vermelho-claro);
     border-color: var(--vermelho-claro);
     border:solid 1px;
     font-size: 1rem;
     font-family: var(--DM-Sans);
-    text-align:center;
     border-radius: 8px;
-    width: 160px;
+    width: 270px;
     right: 163px;
     top: 381PX;
     bottom: 67.21%;
     height: 50px;
+    word-wrap: break-word;
 }
 
-.btns-entrega-dia:hover{
-    background-color: var(--vermelho-claro);
+.btn-detalhes:hover{
+    background-color:var(--vermelho-claro);
     color: var(--branco);
     border: 1px solid var(--vermelho-claro);
+}
+
+.minhas-compras{
+    margin-bottom: 20%;
 }
