@@ -3,11 +3,13 @@
     --branco-acinzentado: #f7f7f7;
     --branco-opacity05: rgba(255, 255, 255, 0.5);
     --cinza: #CED4DA;
+    --cinza-escuro1: #333;
     --cinza-escuro: rgba(100, 100, 111, 0.2);
     --laranja-claro: #f49b3f;
     --verde: #5eae53;
     --vermelho-claro: #eb8e78;
     --vermelho-claro-hover: #ff795b;
+    --vermelho-shadow: rgba(235, 142, 120, 0.29829);
     --marrom-shadow-opacity03: hsla(30, 100%, 19%, 0.3);
     --marrom-escuro-shadow-opacity02: rgba(97, 49, 0, 0.2);
     --preto-shadow-opacity02: hsla(240, 5%, 41%, 0.2);
@@ -15,6 +17,7 @@
 
 
     --fonte-branca: #FFF;
+    --fonte-vermelho-claro: #eb8e78;
 
     --DM-Sans: "DM Sans", sans-serif;
     --Work-Sans: "Work Sans", sans-serif;
