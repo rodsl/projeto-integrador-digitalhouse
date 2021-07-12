@@ -41,6 +41,10 @@ input::placeholder {
     padding: 0.2rem;
 }
 
+.input-data-nascimento {
+    width: 65%;
+}
+
 .label-genero {
     padding-right: 0.5rem;
 }
