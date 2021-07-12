@@ -2,21 +2,40 @@
 @import "./base.css";
 @import "./styles.css";
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: var(--verde);
 }
-.form-login{
-    width: 50%;
 
+main {
+    height: 100vh;
 }
-.img-form{
-    /* border: 1px solid blue; */
-    width: 20%;
+
+.form-login {
+    padding: 5rem 2rem 0 0;
+    width: 50%;
+}
+
+.img-form {
+    background: url('../img/bg-login.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 10px 20px 40px var(--cinza-escuro);
+    width: 50%;
+}
+
+.logo {
+    padding-bottom: 3rem;
+    width: 40%;
 }
 
 .logo img {
-    height: 60%;
-    width: 40%;
+    width: 100%;
 }
 
 .form {
